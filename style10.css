@@ -1,0 +1,73 @@
+body {
+background-image: url("images/donker.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+background-color: black;
+height: 800px;
+
+}
+
+header{
+text-align: center;
+ font-weight:bolder;
+ font-size: 30px;
+background-color:black;
+color :orange;
+border: 5px red solid;
+
+}
+
+button{
+	background-color: black;
+	border-radius: 15px;
+	color: lightblue;
+	width: 100px;
+	height: 40px;
+}
+
+#content{
+	margin-left: 200px; 
+	margin-top: -40px;
+	
+}
+
+ul{
+list-style-type: square;
+}
+
+li{
+color:black;
+ font-weight:bolder;
+ }
+
+ p{
+ 	font-weight: bolder;
+ 	text-align: center;
+ }
+
+ hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.one{
+	    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+img{
+
+	position: absolute;
+	top: 100px;
+	right: 300px;
+}
